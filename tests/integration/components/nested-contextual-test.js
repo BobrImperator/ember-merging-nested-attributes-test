@@ -13,7 +13,6 @@ module('Integration | Component | nested-contextual', function(hooks) {
       </NestedContextual>
     `);
 
-    return this.pauseTest();
     assert.dom(".con-body").exists();
     assert.dom(".hi-from-ncon").exists();
   });
